@@ -87,6 +87,26 @@ DNS-сервер проходит по всем записям таблицы и
 
 *Приведите конфигурации настроенного Nginx сервиса и скриншот результата выполнения команды curl http://localhost:8088/ping.*
 
+В файл /etc/nginx/sites-enabled/one  записываем содержимое:
+
+server {
+
+listen 8088;
+
+location /{
+
+return 200 'this is good';
+
+}
+
+location /ping{
+
+return 200 'nginx is configured correctly';
+
+}
+
+}
+
 ![](img/5-1.png)
 ![](img/5-2.png)
 ![](img/5-3.png)
