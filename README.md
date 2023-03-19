@@ -112,7 +112,13 @@ return 200 'nginx is configured correctly';
 ```
 
 ![](img/5-1.png)
+
+---
+
 ![](img/5-2.png)
+
+---
+
 ![](img/5-3.png)
 
 ---
