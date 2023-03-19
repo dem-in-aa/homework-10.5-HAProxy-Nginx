@@ -89,7 +89,7 @@ DNS-сервер проходит по всем записям таблицы и
 
 В файл /etc/nginx/sites-enabled/one  записываем содержимое:
 
-'''yaml
+```yaml
 
 server {
 
@@ -109,7 +109,7 @@ return 200 'nginx is configured correctly';
 
 }
 
-'''
+```
 
 ![](img/5-1.png)
 ![](img/5-2.png)
